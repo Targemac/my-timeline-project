@@ -1,0 +1,65 @@
+.my-timeline-wrapper {
+  display: grid;
+  width: 80vw;
+  margin: 0 auto;
+  border: 0.5px solid lightgrey;
+  font-family: calibri;
+}
+
+.my-timeline-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(107, 107, 203);
+  color: white;
+  font-size: 24px;
+  padding: 1rem;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+/* ------------------------- */
+.my-timeline-search-box {
+  display: grid;
+  padding: 8px 12px;
+}
+.my-timeline-search-box input {
+  padding: 8px 12px;
+  border: none;
+  font-size: 18px;
+  background-color: lightgrey;
+}
+/* -------------------------- */
+.my-timeline-body {
+  display: grid;
+  padding: 1rem;
+  row-gap: 1rem;
+}
+.my-timeline-feed-grp {
+  display: flex;
+  gap: 1rem;
+  border: 0.5px solid lightgrey;
+  padding: 1rem;
+}
+.my-timeline-feed-grp-col-1 {
+  max-width: 50px;
+  border-radius: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+.my-timeline-feed-grp-col-1 img {
+  width: 100%;
+}
+.my-timeline-feed-grp-col-2 {
+  display: grid;
+  row-gap: 0.5rem;
+}
+.my-timeline-feed-grp-col-2-row-1 {
+  font-size: 1.5em;
+}
+.my-timeline-feed-grp-col-2-row-2 {
+  color: rgb(181, 181, 181);
+}
+.my-timeline-feed-grp-col-2-row-3 {
+  color: rgb(130, 130, 130);
+  font-size: 18px;
+}
